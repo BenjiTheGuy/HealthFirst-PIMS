@@ -1,9 +1,9 @@
-### HealthFirst Pharmacy – Pharmacy Inventory Management System
+# HealthFirst Pharmacy – Pharmacy Inventory Management System
 
 HealthFirst PIMS is a desktop-based Pharmacy Inventory Management System developed using Java Swing, JDBC, and MySQL. The system is designed to assist pharmacy staff with managing medicines, suppliers, users, sales, stock levels, and inventory reports.
 
 ## Features
-# Admin
+### Admin
 - Secure admin login 
 - Manage medicines 
 - Manage suppliers 
@@ -16,7 +16,7 @@ HealthFirst PIMS is a desktop-based Pharmacy Inventory Management System develop
 - View medicines nearing expiry 
 - Monitor pharmacy inventory
 
-# Cashier
+### Cashier
 - Secure cashier login 
 - Search and select medicines 
 - Add medicines to a sale 
@@ -72,14 +72,14 @@ The application uses environment variables for the database credentials rather t
 
 Configure the following environment variables:
 
-DB_USERNAME=your_mysql_username
-DB_PASSWORD=your_mysql_password
+- DB_USERNAME=your_mysql_username
+- DB_PASSWORD=your_mysql_password
 
 The database connection uses:
 
-Host: localhost
-Port: 3306
-Database: pharmacy_db
+- Host: localhost
+- Port: 3306
+- Database: pharmacy_db
 
 ## Running the Application
 1. Clone this repository.
@@ -95,13 +95,13 @@ Database: pharmacy_db
 
 The SQL database contains default accounts for testing.
 
-# Admin
-Username: admin
-Password: admin123
+### Admin
+- Username: admin
+- Password: admin123
 
-# Cashier
-Username: cashier
-Password: cashier123
+### Cashier
+- Username: cashier
+- Password: cashier123
 
 These credentials are provided for demonstration and assignment testing purposes.
 
@@ -118,6 +118,6 @@ The database contains the tables required for:
 
 ## Author
 
-# Benjamin Montague
+### Benjamin Montague
 
-# HealthFirst Pharmacy – Pharmacy Inventory Management System
+### HealthFirst Pharmacy – Pharmacy Inventory Management System
